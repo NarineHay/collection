@@ -5,7 +5,7 @@ include "header.php";
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="page_fix">
     <?php include "navbar.php"; ?>
 <section id="banner">
     <div class="container">

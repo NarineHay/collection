@@ -1,3 +1,13 @@
+<?php
+session_start();
+if(isset($_SESSION['language'])){
+  $lng=$_SESSION['language'];
+}
+else{
+  $lng='en';
+}
+?>
+
 <section id="fix">
 <header class="navbar navbar-expand-lg navbar-light bg-light" id="head-er">
 <div class="container ">
@@ -23,7 +33,18 @@
     
 <div class="d-flex ml-auto" id="header-right">
     <div >Register or Log in</div>
-    <div >Rus</div>
+    <!-- <div >Rus</div> -->
+    <!-- -------------------------- -->
+    <div data-google-lang="<?php if($lng=='ru'){
+            echo 'en';}
+        else{
+            echo 'ru';}
+         ?>" class="language__img" name="lezu" ><?php
+        if($lng=='ru'){echo 'Eng';}
+        else{echo 'Rus';}
+        ?>
+        </div>
+    <!-- ----------------------------- -->
   </div>
   <div>
   

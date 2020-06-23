@@ -34,3 +34,4 @@
     </div>
 </section>
 <script src="js/footer.js"></script>
+<script src="googleTranslate/googleTranslate.js"></script>

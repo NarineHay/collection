@@ -11,6 +11,7 @@
     src: url("../fonts/Archive-Regular.ttf") format("ttf"),
          url("../fonts/Archive-Regular.otf") format("otf");
   }
+ 
 body{
 font-family: "Tahoma Regular", serif !important; 
 }
@@ -80,8 +81,20 @@ padding: 8px 2%;
 .navbar-nav> li >a{
     color:rgb(19,57,96) !important;
     font-weight: 600;
-/* -------------------------media max-width 1000px---------------------------- */
 }
+
+/* ----------googleTrastate--------  */
+.page_fix {
+    top: 0 !important;
+    position: static !important;
+}
+
+.skiptranslate {
+    display: none !important;
+}
+/* --------------------------------- */
+/* -------------------------media max-width 1000px---------------------------- */
+
 @media (max-width: 1000px){
     #fix{
         position: unset;
